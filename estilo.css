@@ -1,0 +1,378 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    height: 80%;
+    font-family: 'Roboto', sans-serif;  
+}
+
+header .read {
+    padding: 15px;
+}
+
+header .read {
+    color: #02b56a;
+    font-family: 'Roboto', sans-serif;
+}
+
+.center {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.main {
+    background-image: url(image/fundo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 577px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+header .menu{
+    position: fixed;
+}
+
+.logo {
+    color: #fff;
+    position: relative;
+    top: 150px;
+    left: -10px;
+}
+
+.menu {
+    margin-top: 15px;
+    margin-right: -60px;
+}
+
+.menu a {
+    display: inline-block;
+    color: #fff;
+    margin: 0 5px 0 5px;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.5s;
+    padding: 8px 10px 8px 10px;
+}
+
+.menu a:hover {
+    background: #000;
+    border-radius: 12px;
+}
+
+section.tittle {
+    position: relative;
+    left: -100px;
+}
+
+title {
+    text-align: center;
+}
+
+.tittle h2{
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: 1.2px;
+    margin: 150px 0 0 450px;
+}
+
+.tittle p {
+    color: #fff;
+    font-size: 15px;
+    margin: 10px 0 0 460px;
+}
+
+.btn a {
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    padding: 10px 30px;
+    background: #7ef8fc;
+    color: #000;
+    border-radius: 5px;
+    position: relative;
+    top: 100px;
+    left: 530px;
+    transition: 1s;
+}
+
+.btn a:hover {
+    background-color: #000;
+    color: #7ef8fc;
+}
+
+.main-2 {
+    border-top: 20px solid black;
+    background: url(image/fun.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 530px;
+}
+
+.main-2 img {
+    width: 250px;
+}
+
+.gradient {
+    background: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(to top, rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);
+}
+
+.btn-net h2 {
+    color: #fff;
+    position: absolute;
+    top: 870px;
+    left: 450px;
+}
+
+.btn-net a {
+    text-decoration: none;
+    background: #e50914;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 40px;
+    position: relative;
+    top: 200px;
+    left: 550px;
+    font-size: 20px;
+}
+
+.btn-net a:hover {
+    background: #f4062f;
+}
+
+.main-3 {
+    border-top: 20px solid black;
+    background: url(image/sss.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 660px;
+}
+
+.main-3 img {
+    width: 250px;
+}
+
+.btn-disney a {
+    text-decoration: none;
+    background: #0063e5;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 40px;
+    position: relative;
+    top: 230px;
+    left: 560px;
+    font-size: 20px;
+}
+
+.btn-disney a:hover {
+    background: #1a79f5;
+}
+
+.btn-disney h2 {
+    color: #fff;
+    position: absolute;
+    top: 1470px;
+    left: 450px;
+}
+
+.main-4 {
+    border-top: 20px solid black;
+    background: url(image/p.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 660px;
+}
+
+.btn-premiere h2 {
+    color: #fff;
+    position: absolute;
+    top: 2270px;
+    left: 460px;
+}
+
+.btn-premiere a {
+    font-family: sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 520px;
+    left: 560px;
+    text-decoration: none;
+    color: #000;
+    background: #f0c14b;
+    background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
+    padding: 15px 50px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn-premiere a:hover {
+    background: #ffd877;
+    background: linear-gradient(to center, #fddb8b, #f0c14b);
+}
+
+.main-5 {
+    border-top: 20px solid black;
+    background: url(image/tesla.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 500px;
+}
+
+.btn-tesla a {
+    display: inline-block;
+    padding: 10px 50px;
+    margin: 0 10px;
+    background: #fff;
+    color: #393c41;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size:14px ;
+    position: relative;
+    top: 340px;
+    left: 560px;
+}
+
+.btn-tesla h2 {
+    color: #fff;
+    position: absolute;
+    top: 2870px;
+    left: 460px;
+}
+
+.tesla img {
+    width: 250px;
+    margin: 20px 0;
+}
+
+.main-6 {
+    border-top: 20px solid black;
+    background: url(image/web.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 550px;
+}
+
+.btn-web h2 {
+    color: #000;
+    position: absolute;
+    top: 3370px;
+    left: 440px;
+}
+
+.btn-web a {
+    text-decoration: none;
+    background-color: #007bff;
+    display: inline-block;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 8px;
+    transition: 1s;
+    position: relative;
+    top: 400px;
+    left: 560px;
+}
+
+.btn-web a:hover {
+    background-color: #124265;
+    color: white;
+}
+
+.main-7 {
+    border-top: 20px solid black;
+    background: url(image/ssss.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 500px;
+}
+
+.btn-coffee h2 {
+    color: #fff;
+    position: relative;
+    top: 200px;
+    margin-left: 420px;
+}
+
+.btn-coffee a {
+    text-decoration: none;
+    border: 0;
+    background: #017143;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100px;
+    height: 60px;
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+    top: 250px;
+    left: 560px;
+}
+
+.btn-coffe a:hover {
+    background: #029457;
+}
+
+.main-8 {
+    border-top: 20px solid black;
+    background: url(image/445821-PEVIPM-250.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.btn-sa h2 {
+    color: #000;
+    position: relative;
+    top: 250px;
+    margin-left: 430px;
+}
+
+.btn-sa a {
+    text-decoration: none;
+    display: inline-block;
+    background: #007bff;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 8px;
+    border: none;
+    transition: 0.5s;
+    position: relative;
+    top: 280px;
+    left: 560px;
+}
+
+.btn-sa a:hover {
+    background: #124265;
+}
+
+.contato {
+    border-top: 20px solid black;
+    background: #029457;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.contato h2 {
+    margin-left: 35%;
+}
+
+.contato p {
+    margin-left: 45%;
+}
